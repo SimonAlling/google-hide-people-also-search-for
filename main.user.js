@@ -14,5 +14,5 @@
             display: none !important;
         }
     `;
-    document.head.appendChild(styleElement);
+    document.documentElement.appendChild(styleElement);
 })();
