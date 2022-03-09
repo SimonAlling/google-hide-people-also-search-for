@@ -10,7 +10,7 @@
     "use strict";
     const styleElement = document.createElement("style");
     styleElement.textContent = `
-        .rc div[id^="eob_"] {
+        div[id^="eob_"] {
             display: none !important;
         }
     `;
